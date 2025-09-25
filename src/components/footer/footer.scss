@@ -1,0 +1,22 @@
+.footer {
+  padding: 55px 0;
+  background-color: #171718;
+  margin-top: auto;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 27px;
+}
+
+.footer__copirater {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #fff;
+}

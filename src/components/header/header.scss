@@ -1,0 +1,35 @@
+.name {
+  background-color: #171718;
+  background-image: url(./../img/Abstract.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 200px 0;
+
+  &__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+
+    span {
+      font-size: 40px;
+    }
+
+    i {
+      color: #5c62ec;
+      font-style: normal;
+    }
+  }
+
+  &__paragrap {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #fff;
+  }
+}
