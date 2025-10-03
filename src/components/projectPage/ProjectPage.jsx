@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import cardInfo from '../../data/card.json';
+import cardInfo from '../../data/card-eng.json';
 import gitHub from '../../img/gitHub-black.svg';
 import './projectPage.scss';
 

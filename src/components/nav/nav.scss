@@ -1,12 +1,21 @@
 .header {
   padding: 20px 0;
   background-color: #171718;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 
   &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  &__content.fade {
+    opacity: 1;
   }
 
   &__title {
@@ -46,31 +55,70 @@
 
   .dark-mode-btn {
     display: flex;
-    justify-content: space-between;
-    position: relative;
+    justify-content: center;
     width: 51px;
     height: 26px;
     border-radius: 50px;
-    background-color: #272727;
+    background-color: #ffffff;
     padding: 5px;
     z-index: 1;
+    text-align: center;
+  }
+}
 
-    &::before {
-      position: absolute;
-      content: '';
-      display: block;
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      background-color: #fff;
-      left: 1px;
-      top: 1px;
-      z-index: -1;
-      transition: left 0.3s ease-in;
+@media (max-width: 700px) {
+  .header {
+    &__content {
+      column-gap: 5px;
+    }
+    &__title {
+      font-size: 20px;
     }
 
-    &--active::before {
-      left: 26px;
+    &__nav {
+      gap: 15px;
+    }
+
+    &__nav-link {
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    &__content {
+      column-gap: 5px;
+    }
+    &__title {
+      font-size: 20px;
+    }
+
+    &__nav {
+      gap: 15px;
+    }
+
+    &__nav-link {
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    &__content {
+      column-gap: 5px;
+    }
+    &__title {
+      font-size: 15px;
+    }
+
+    &__nav {
+      gap: 5px;
+    }
+
+    &__nav-link {
+      font-size: 10px;
     }
   }
 }

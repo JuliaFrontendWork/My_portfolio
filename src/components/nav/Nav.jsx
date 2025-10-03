@@ -1,13 +1,24 @@
+import React, { useState } from 'react';
 import './nav.scss';
-import Sun from '../../img/Sun.svg';
-import Moon from '../../img/Moon.svg';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 function Nav() {
+  const { i18n, t } = useTranslation();
+  const [isFading, setIsFading] = useState(false);
+
+  const toggleLanguage = () => {
+    setIsFading(true);
+    setTimeout(() => {
+      i18n.changeLanguage(i18n.language === 'en' ? 'uk' : 'en');
+      setIsFading(false);
+    }, 200);
+  };
+
   return (
     <header className="header">
       <div className="container">
-        <div className="header__content">
+        <div className={`header__content ${isFading ? 'fade' : ''}`}>
           <div className="header__title">
             Freelancer <span>portfolio</span>
           </div>
@@ -20,7 +31,7 @@ function Nav() {
               }
               end
             >
-              Projects
+              {t('projects')}
             </NavLink>
             <NavLink
               to="/skils"
@@ -29,7 +40,7 @@ function Nav() {
               }
               end
             >
-              Skills
+              {t('skills')}
             </NavLink>
             <NavLink
               to="/contacts"
@@ -38,13 +49,12 @@ function Nav() {
               }
               end
             >
-              Contacts
+              {t('contacts')}
             </NavLink>
           </div>
 
-          <button className="dark-mode-btn">
-            <img src={Sun} alt="Light mode" className="dark-mode-btn-icon" />
-            <img src={Moon} alt="Night mode" className="dark-mode-btn-icon" />
+          <button className="dark-mode-btn" onClick={toggleLanguage}>
+            {i18n.language === 'en' ? 'UKR' : 'ENG'}
           </button>
         </div>
       </div>

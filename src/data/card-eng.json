@@ -4,8 +4,9 @@
     "image": "/img/pizza-react.png",
     "title": "React pizza",
     "skils": "ReactJS 18, TypeScript, Redux Toolkit, React Router, Axios + Fetch",
-    "linkWeb": "https://juliafrontendwork.github.io/practice/",
-    "linkCode": "https://github.com/JuliaFrontendWork/practice"
+    "linkWeb": "https://juliafrontendwork.github.io/Pizza-react/",
+    "linkCode": "https://github.com/JuliaFrontendWork/Pizza-react",
+    "description": "A pizza place using advanced React technologies:Redux Toolkit, Axios + Fetch and TypeScript."
   },
 
   {
@@ -14,7 +15,8 @@
     "title": "Travel landing",
     "skils": "Gulp, Node.js",
     "linkWeb": "https://juliafrontendwork.github.io/travel-landing/",
-    "linkCode": "https://github.com/JuliaFrontendWork/travel-landing"
+    "linkCode": "https://github.com/JuliaFrontendWork/travel-landing",
+    "description": "Travel agency website using Gulp, Node.js."
   },
 
   {
@@ -23,7 +25,8 @@
     "title": "Clothing store",
     "skils": "Gulp, Node.js",
     "linkWeb": "https://juliafrontendwork.github.io/clothing-store/",
-    "linkCode": "https://github.com/JuliaFrontendWork/clothing-store"
+    "linkCode": "https://github.com/JuliaFrontendWork/clothing-store",
+    "description": "Clothing store website using Gulp, Node.js."
   },
 
   {
@@ -32,7 +35,8 @@
     "title": "Fashion store",
     "skils": "React, Node.js",
     "linkWeb": "https://juliafrontendwork.github.io/fashion-store/#!",
-    "linkCode": "https://github.com/JuliaFrontendWork/fashion-store"
+    "linkCode": "https://github.com/JuliaFrontendWork/fashion-store",
+    "description": "Clothing store website using React, Node.js."
   },
 
   {
@@ -41,7 +45,8 @@
     "title": "Weather forecast",
     "skils": "HTML, CSS, JS, API",
     "linkWeb": "https://juliafrontendwork.github.io/practice/",
-    "linkCode": "https://github.com/JuliaFrontendWork/practice"
+    "linkCode": "https://github.com/JuliaFrontendWork/practice",
+    "description": "Weather forecast website using HTML, CSS, JS, API."
   },
 
   {
@@ -50,6 +55,7 @@
     "title": "Tea store",
     "skils": "HTML, CSS, JS",
     "linkWeb": "https://juliafrontendwork.github.io/Tea_store/",
-    "linkCode": "https://github.com/JuliaFrontendWork/Tea_store"
+    "linkCode": "https://github.com/JuliaFrontendWork/Tea_store",
+    "description": "Tea store website using HTML, CSS, JS."
   }
 ]
