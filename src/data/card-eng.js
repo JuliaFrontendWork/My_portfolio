@@ -1,0 +1,59 @@
+export const cardInfo = [
+  {
+    id: '0',
+    image: '/img/pizza-react.png',
+    title: 'React pizza',
+    skils: 'ReactJS 18, TypeScript, Redux Toolkit, React Router, Axios + Fetch',
+    linkWeb: 'https://juliafrontendwork.github.io/Pizza-react/',
+    linkCode: 'https://github.com/JuliaFrontendWork/Pizza-react',
+    description:
+      'A pizza place using advanced React technologies: Redux Toolkit, Axios + Fetch and TypeScript.',
+  },
+  {
+    id: '1',
+    image: '/img/logoipsum.png',
+    title: 'Travel landing',
+    skils: 'Gulp, Node.js',
+    linkWeb: 'https://juliafrontendwork.github.io/travel-landing/',
+    linkCode: 'https://github.com/JuliaFrontendWork/travel-landing',
+    description: 'Travel agency website using Gulp, Node.js.',
+  },
+  {
+    id: '2',
+    image: '/img/modimol.png',
+    title: 'Clothing store',
+    skils: 'Gulp, Node.js',
+    linkWeb: 'https://juliafrontendwork.github.io/clothing-store/',
+    linkCode: 'https://github.com/JuliaFrontendWork/clothing-store',
+    description: 'Clothing store website using Gulp, Node.js.',
+  },
+  {
+    id: '3',
+    image: '/img/fashion.png',
+    title: 'Fashion store',
+    skils: 'React, Node.js',
+    linkWeb: 'https://juliafrontendwork.github.io/fashion-store/#!',
+    linkCode: 'https://github.com/JuliaFrontendWork/fashion-store',
+    description: 'Clothing store website using React, Node.js.',
+  },
+  {
+    id: '4',
+    image: '/img/wether.png',
+    title: 'Weather forecast',
+    skils: 'HTML, CSS, JS, API',
+    linkWeb: 'https://juliafrontendwork.github.io/practice/',
+    linkCode: 'https://github.com/JuliaFrontendWork/practice',
+    description: 'Weather forecast website using HTML, CSS, JS, API.',
+  },
+  {
+    id: '5',
+    image: '/img/tealuxe.png',
+    title: 'Tea store',
+    skils: 'HTML, CSS, JS',
+    linkWeb: 'https://juliafrontendwork.github.io/Tea_store/',
+    linkCode: 'https://github.com/JuliaFrontendWork/Tea_store',
+    description: 'Tea store website using HTML, CSS, JS.',
+  },
+];
+
+export default cardInfo;

@@ -1,5 +1,5 @@
-import enData from '../../data/card-eng.json';
-import ukData from '../../data/card-ukr.json';
+import enData from '../../data/card-eng.js';
+import ukData from '../../data/card-ukr.js';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 

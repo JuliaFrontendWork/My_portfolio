@@ -1,8 +1,4 @@
 import './footer.scss';
-import Inst from '../../img/instagram.svg';
-import Twitter from '../../img/twitter.svg';
-import GitHub from '../../img/gitHub.svg';
-import Linked from '../../img/linkedIn.svg';
 
 function Footer() {
   return (
@@ -11,20 +7,20 @@ function Footer() {
         <div className="footer__content">
           <div className="footer__social">
             <a target="_blank" href="https://www.instagram.com/juliaperegorodo/" rel="noreferrer">
-              <img src={Inst} alt="Instagram" />
+              <img src="../../img/instagram.svg" alt="Instagram" />
             </a>
             <a target="_blank" href="https://x.com/peregorodo47471" rel="noreferrer">
-              <img src={Twitter} alt="Twitter" />
+              <img src="../../img/twitter.svg" alt="Twitter" />
             </a>
             <a target="_blank" href="https://github.com/JuliaFrontendWork" rel="noreferrer">
-              <img src={GitHub} alt="GitHub" />
+              <img src="../../img/gitHub.svg" alt="GitHub" />
             </a>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/julia-peregorodo-99556334a/"
               rel="noreferrer"
             >
-              <img src={Linked} alt="LinkedIn" />
+              <img src="../../img/linkedIn.svg" alt="LinkedIn" />
             </a>
           </div>
 

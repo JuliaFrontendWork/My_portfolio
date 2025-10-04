@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom';
-import cardInfo from '../../data/card-eng.json';
-import gitHub from '../../img/gitHub-black.svg';
+import cardInfo from '../../data/card-eng';
 import './projectPage.scss';
 
 function ProjectPage() {
@@ -24,7 +23,13 @@ function ProjectPage() {
           <p className="project__paragraf-info">{project.skils}</p>
 
           <a target="_blank" rel="noreferrer" href={project.linkCode} className="project__btn-info">
-            <img id="themeImage" src={gitHub} width="24" height="24" alt="GitHub icon" />
+            <img
+              id="themeImage"
+              src="/img/gitHub-black.svg"
+              width="24"
+              height="24"
+              alt="GitHub icon"
+            />
             GitHub repo
           </a>
         </div>
