@@ -25,7 +25,7 @@ function ProjectPage() {
           <a target="_blank" rel="noreferrer" href={project.linkCode} className="project__btn-info">
             <img
               id="themeImage"
-              src="/img/gitHub-black.svg"
+              src="./img/gitHub-black.svg"
               width="24"
               height="24"
               alt="GitHub icon"
